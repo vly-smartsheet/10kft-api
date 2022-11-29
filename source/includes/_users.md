@@ -62,6 +62,7 @@ POST /api/v1/users
 | `last_login_time` | date-time | Last time the user logged in | | yes |
 | `created_at` | date-time | time of creation | | yes |
 | `updated_at` | date-time | time of last update | | yes |
+| `invitationemail` | boolean | should an invitation be e-mailed | yes |  |
 
 ### Deleting vs Archiving
 
